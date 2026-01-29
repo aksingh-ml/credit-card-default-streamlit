@@ -1,3 +1,11 @@
+\## Live Demo
+
+Streamlit App: https://credit-card-default-app-ml.streamlit.app/
+
+
+
+
+
 \# Credit Card Default Prediction using Machine Learning
 
 
@@ -107,14 +115,17 @@ k-Nearest Neighbors (kNN):
 kNN performed moderately well after feature scaling, with balanced precision and recall compared to Decision Tree. However, its performance was limited due to sensitivity to distance measures in high-dimensional data.
 
 
+
 Naive Bayes:
 
 Naive Bayes achieved relatively higher recall among simple models, making it more effective at identifying defaulters. However, its lower precision indicates a higher false positive rate, which affects overall accuracy.
 
 
+
 Random Forest (Ensemble):
 
 Random Forest achieved one of the highest accuracy and MCC scores, demonstrating strong generalization capability. By combining multiple decision trees, it reduced overfitting and handled feature interactions effectively.
+
 
 
 XGBoost (Ensemble):
